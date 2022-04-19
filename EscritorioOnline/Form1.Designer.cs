@@ -52,7 +52,7 @@ namespace EscritorioOnline
             this.Numero.Size = new System.Drawing.Size(257, 20);
             this.Numero.TabIndex = 1;
             this.Numero.Text = "Escribe un numero";
-            this.Numero.TextChanged += new System.EventHandler(this.Numero_TextChanged);
+            //this.Numero.TextChanged += new System.EventHandler(this.Numero_TextChanged);
             // 
             // label1
             // 
@@ -71,7 +71,7 @@ namespace EscritorioOnline
             this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Resultado";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            //this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form1
             // 
@@ -84,7 +84,7 @@ namespace EscritorioOnline
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Par o Impar";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            //this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
